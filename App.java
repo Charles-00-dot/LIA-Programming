@@ -8,6 +8,10 @@ import java.util.ArrayList;
  */
 public class App
 {
+    
+    private int steps =0;
+    
+    
     public App(){
         
     }
@@ -22,7 +26,7 @@ public class App
     
     public void numberOfUser(){
         
-     }
+    }
      
     
      
