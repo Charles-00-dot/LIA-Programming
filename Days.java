@@ -7,5 +7,5 @@
  */
 public enum Days
 {
-    LUNDI, MARDI, MERCREDI, JEUDI, VENDREDI, SAMEDI, DIMANCHE
+    Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 }
