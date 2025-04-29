@@ -29,13 +29,17 @@ public abstract class Activities extends App
         normalAct.add("Swim");
         normalAct.add("Walk");
         normalAct.add("Hike");
+        //Added by Aadam
+        normalAct.add("Jogging");
     }
     
     public void poweredActivities(){
-        ArrayList<String> intencity = new ArrayList<String>();
-        intencity.add("Bike");
-        intencity.add("Run");
-        intencity.add("Rollerblade");
+        ArrayList<String> intensity = new ArrayList<String>();
+        intensity.add("Bike");
+        intensity.add("Run");
+        intensity.add("Rollerblade");
+        //Added by Aadam
+        intensity.add("Ball Sport");
     }
     
     public double getDistance() {
