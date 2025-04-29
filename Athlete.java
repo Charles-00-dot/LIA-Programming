@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 /**
  * Write a description of class Athlete here.
  *
@@ -31,5 +30,15 @@ public class Athlete extends App
     public ArrayList<Activities> getActivities() {
         return activities;
     }
+    
+    // Still not sure about this
+    public void getTotalDistance(){ // not void but double, but I have to write this for now until we figure out the method
+      //still gotta figure out the method implementation (Loop)
+    }
+    
+    public void getTotalBurnedCalories() {// not void but double, but I have to write this for now until we figure out the method
+        //still gotta figure out the method implementation (Loop)
+    }
 }
+
 

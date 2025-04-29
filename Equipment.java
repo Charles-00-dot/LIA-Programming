@@ -5,7 +5,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Equipment extends Activities
+public class Equipment extends PoweredActivities
 
 {
     private String name;
