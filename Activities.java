@@ -17,16 +17,16 @@ public class Activities extends App
     }
     
     public void regularActivities(){
-    ArrayList<String> normalAct = new ArrayList<String>();
-    normalAct.add("Swim");
-    normalAct.add("Walk");
-    normalAct.add("Hike");
+        ArrayList<String> normalAct = new ArrayList<String>();
+        normalAct.add("Swim");
+        normalAct.add("Walk");
+        normalAct.add("Hike");
     }
     
     public void poweredActivities(){
-    ArrayList<String> intencity = new ArrayList<String>();
-    intencity.add("Bike");
-    intencity.add("Run");
-    intencity.add("Rollerblade");
+        ArrayList<String> intencity = new ArrayList<String>();
+        intencity.add("Bike");
+        intencity.add("Run");
+        intencity.add("Rollerblade");
     }
 }
