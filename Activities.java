@@ -6,41 +6,44 @@ import java.util.ArrayList;
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Activities extends App
+public class Activities 
 {
     private Athlete athlete;
-    // private Mode mode
+    private PoweredAct powereAct;
     private double distance = 0;
     private double duration;
-    private Days day;
+    private Mode mode;
     private Equipment equipment; //(can be null)
     
-    public Activities(Athlete athlete, double distance, double duration, Days day, Equipment equipment){ //+ Mode mode in the parameters
+    
+    /*
+     * 
+     * 
+     */
+    public Activities(Athlete athlete, double distance, double duration, Mode mode){ 
         this.athlete = athlete;
         this.distance = distance;
         this.duration = duration;
-        this.day = day;
-        this.equipment = equipment;
-        // this.mode = mode
+        this.mode = mode;
     }
     
-    public void regularActivities(){
-        ArrayList<String> normalAct = new ArrayList<String>();
-        normalAct.add("Swim");
-        normalAct.add("Walk");
-        normalAct.add("Hike");
-        //Added by Aadam
-        normalAct.add("Jogging");
-    }
+    // public void regularActivities(){
+        // ArrayList<String> normalAct = new ArrayList<String>();
+        // normalAct.add("Swim");
+        // normalAct.add("Walk");
+        // normalAct.add("Hike");
+        // //Added by Aadam
+        // normalAct.add("Jog");
+    // }
     
-    public void poweredActivities(){
-        ArrayList<String> intensity = new ArrayList<String>();
-        intensity.add("Bike");
-        intensity.add("Run");
-        intensity.add("Rollerblade");
-        //Added by Aadam
-        intensity.add("Ball Sport");
-    }
+    // public void poweredActivities(){
+        // ArrayList<String> intensity = new ArrayList<String>();
+        // intensity.add("Bike");
+        // intensity.add("Run");
+        // intensity.add("Rollerblade");
+        // //Added by Aadam
+        // intensity.add("Ball Sport");
+    // }
     
     public double getDistance() {
         return distance;
@@ -50,8 +53,8 @@ public abstract class Activities extends App
         return duration;
     }
 
-    public Days getDay() {
-        return day;
+    public Mode getMode() {
+        return mode;
     }
 
     public Equipment getEquipment() {

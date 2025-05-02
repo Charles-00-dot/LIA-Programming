@@ -5,7 +5,7 @@
  * @author (votre nom)
  * @version (numéro de version ou date)
  */
-public enum Days
+public enum Mode
 {
-    Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+    WALKING, RUNNING, SWIMMING, RIDING, SLOWRUN
 }

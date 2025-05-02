@@ -11,22 +11,17 @@ public class App
     private ArrayList<Athlete> athletes;
     private ArrayList<Activities> activities;
     private ArrayList<Equipment> equipment;
-    private int steps = 0;
+    private double distance = 0;
     public App(){
         athletes = new ArrayList<Athlete>();
         activities = new ArrayList<Activities>();
         equipment = new ArrayList<Equipment>();
-    }
-    
-    public int countedSteps (){
-        int i = 0;
-        return i;
         
     }
-    
+
     
     public void numberOfUser(){
-        
+        System.out.println(athletes.size());
     }
      
     public void createAthlete(String name, int age, Gender gender) {
@@ -44,19 +39,17 @@ public class App
         //Gotta figure out the method
     }
     
-    public void createActivity(Athlete athlete, double distance, double duration, Days day, Equipment equip) { //+mode
+    public void createActivity(Athlete athlete, double distance, double duration, Mode mode, Equipment equip) { //+mode
         //Gotta figure out the method
     }
     
     public void listActivities() {
-        //Gotta figure out the method
+        for (Activities activities : activities){
+            System.out.println(activities);
+        }
     }
     
     public void listActivitiesByAthlete(Athlete athlete) {
-        //Gotta figure out the method
-    }
-    
-    public void listActivitiesByMode() { //mode parameter
         //Gotta figure out the method
     }
     

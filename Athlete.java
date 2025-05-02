@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Athlete extends App
+public class Athlete 
 {
     private String name;
     private int age;
