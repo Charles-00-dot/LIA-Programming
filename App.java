@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Scanner;
 /**
  * Write a description of class App here.
  *
@@ -9,12 +9,12 @@ import java.util.ArrayList;
 public class App
 {
     private ArrayList<Athlete> athletes;
-    private ArrayList<Activities> activities;
+    private ArrayList<Activity> activities;
     private ArrayList<Equipment> equipment;
     private double distance = 0;
     public App(){
         athletes = new ArrayList<Athlete>();
-        activities = new ArrayList<Activities>();
+        activities = new ArrayList<Activity>();
         equipment = new ArrayList<Equipment>();
         
     }
@@ -44,7 +44,7 @@ public class App
     }
     
     public void listActivities() {
-        for (Activities activities : activities){
+        for (Activity activities : activities){
             System.out.println(activities);
         }
     }

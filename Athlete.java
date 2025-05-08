@@ -10,16 +10,16 @@ public class Athlete
     private String name;
     private int age;
     private Gender gender;
-    private ArrayList<Activities> activities;
+    private ArrayList<Activity> activities;
     
     public Athlete(String name, int age, Gender gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
-        activities = new ArrayList<Activities>();
+        activities = new ArrayList<Activity>();
     }
     
-    public void addActivity(Activities activity) {
+    public void addActivity(Activity activity) {
         activities.add(activity);
     }
     
@@ -27,7 +27,7 @@ public class Athlete
         return name;
     }
     
-    public ArrayList<Activities> getActivities() {
+    public ArrayList<Activity> getActivities() {
         return activities;
     }
     

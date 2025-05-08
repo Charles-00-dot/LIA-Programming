@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Activities 
+public class Activity 
 {
     private Athlete athlete;
     private PoweredAct powereAct;
@@ -20,14 +20,14 @@ public class Activities
      * 
      * 
      */
-    public Activities(Athlete athlete, double distance, double duration, Mode mode){ 
+    public Activity(Athlete athlete, double distance, double duration, Mode mode){ 
         this.athlete = athlete;
         this.distance = distance;
         this.duration = duration;
         this.mode = mode;
     }
     
-    // public void regularActivities(){
+    // public void regularActivity(){
         // ArrayList<String> normalAct = new ArrayList<String>();
         // normalAct.add("Swim");
         // normalAct.add("Walk");

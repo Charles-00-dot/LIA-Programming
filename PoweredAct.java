@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class PoweredAct extends Activities
+public class PoweredAct extends Activity
 {
     private String highIntencity;
     private Equipment equipment;
