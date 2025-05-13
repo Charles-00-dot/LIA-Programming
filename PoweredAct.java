@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Write a description of class PoweredAct here.
@@ -13,5 +14,31 @@ public class PoweredAct extends Activity
     public PoweredAct(Athlete athlete, double distance, double duration, Mode mode, Equipment equipment) {
         super(athlete, distance, duration, mode);
         this.equipment = equipment;
+        
+    }
+    
+    public static void createPoweredAct(){
+        double distance;
+        double duration;
+        double caloriesBurned;
+        Mode mode;
+        Equipment equipment;
+        
+        Scanner scanner = new Scanner(System.in);
+    System.out.print("distance traveled: ");
+    distance = scanner.nextDouble();
+    scanner.nextLine();
+    System.out.print("Time traveled: ");
+    distance = scanner.nextDouble();
+    scanner.nextLine();
+    System.out.print("which activity?");
+    switch(scanner.next()){
+        case"Bike" :
+        mode = Mode.RIDING;
+        break;
+        case"RollerSkate":
+        mode = Mode.ROLLERBLADING;
+        break;
+    }
     }
 }

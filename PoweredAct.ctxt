@@ -3,4 +3,6 @@ comment0.target=PoweredAct
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ PoweredAct\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=athlete\ distance\ duration\ mode\ equipment
 comment1.target=PoweredAct(Athlete,\ double,\ double,\ Mode,\ Equipment)
-numComments=2
+comment2.params=
+comment2.target=void\ createPoweredAct()
+numComments=3

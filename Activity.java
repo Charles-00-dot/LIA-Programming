@@ -8,12 +8,14 @@ import java.util.ArrayList;
  */
 public class Activity 
 {
-    private Athlete athlete;
-    private PoweredAct powereAct;
-    private double distance = 0;
-    private double duration;
-    private Mode mode;
-    private Equipment equipment; //(can be null)
+private Athlete athlete;
+private PoweredAct powereAct;
+private double distance;
+private double duration;
+private double caloriesBurned;
+    
+private Mode mode;
+private Equipment equipment; //(can be null)
     
     
     /*
@@ -25,25 +27,8 @@ public class Activity
         this.distance = distance;
         this.duration = duration;
         this.mode = mode;
+        
     }
-    
-    // public void regularActivity(){
-        // ArrayList<String> normalAct = new ArrayList<String>();
-        // normalAct.add("Swim");
-        // normalAct.add("Walk");
-        // normalAct.add("Hike");
-        // //Added by Aadam
-        // normalAct.add("Jog");
-    // }
-    
-    // public void poweredActivities(){
-        // ArrayList<String> intensity = new ArrayList<String>();
-        // intensity.add("Bike");
-        // intensity.add("Run");
-        // intensity.add("Rollerblade");
-        // //Added by Aadam
-        // intensity.add("Ball Sport");
-    // }
     
     public double getDistance() {
         return distance;
