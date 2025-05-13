@@ -31,10 +31,10 @@ public class PoweredAct extends Activity
     System.out.print("Time traveled: ");
     distance = scanner.nextDouble();
     scanner.nextLine();
-    System.out.print("which activity?");
+    System.out.print("which activity: Bike or RollerBlade");
     switch(scanner.next()){
         case"Bike" :
-        mode = Mode.RIDING;
+        Equipment.createEquipment();
         break;
         case"RollerSkate":
         mode = Mode.ROLLERBLADING;

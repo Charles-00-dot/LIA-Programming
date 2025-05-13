@@ -1,4 +1,6 @@
 import java.util.*; 
+import java.util.Scanner;
+
 /**
  * Write a description of class Equipment here.
  *
@@ -15,6 +17,19 @@ public class Equipment
         this.name = name;
         this.mode = mode;
     }
+    
+    public static void createEquipment(){
+    String name;
+    Mode mode;
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Do you usa a bike");
+    switch(scanner.next()){
+    case"Yes" :
+        mode = Mode.RIDING;
+    break;
+    }
+}
+    
 
     public String getName() {
         return name;
