@@ -2,8 +2,8 @@
 /**
  * Enumeration class Gender - write a description of the enum class here
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author (Charles)
+ * @version (2025-05-18)
  */
 public enum Gender
 {

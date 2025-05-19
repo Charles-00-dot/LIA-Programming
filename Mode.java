@@ -1,9 +1,9 @@
 
 /**
- * Enumeration Days - écrire ici la description de l'énumération
+ * Enumeration Mode - the type of exercise that an athlete uses.
  *
- * @author (votre nom)
- * @version (numéro de version ou date)
+ * @author ( Charles)
+ * @version (2025-05-18)
  */
 public enum Mode
 {

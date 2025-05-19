@@ -1,0 +1,170 @@
+Project documentation
+<---- javadoc command: ---->
+D:\BlueJ-windows-541\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\charl\LIA-Programming
+-source
+21
+-classpath
+D:\BlueJ-windows-541\bluej\lib\bluejcore.jar;D:\BlueJ-windows-541\bluej\lib\javafx-base-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-controls-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-fxml-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-graphics-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-media-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-swing-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\javafx-web-21.0.3-win.jar;D:\BlueJ-windows-541\bluej\lib\junit-4.12.jar;D:\BlueJ-windows-541\bluej\lib\junit-jupiter-5.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-jupiter-api-5.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-jupiter-engine-5.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-jupiter-params-5.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-platform-commons-1.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-platform-engine-1.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-platform-launcher-1.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-platform-suite-api-1.5.2.jar;D:\BlueJ-windows-541\bluej\lib\junit-vintage-engine-5.5.2.jar;D:\BlueJ-windows-541\bluej\lib\hamcrest-core-1.3.jar;D:\BlueJ-windows-541\bluej\lib\opentest4j-1.2.0.jar;D:\BlueJ-windows-541\bluej\lib\lang-stride.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.base.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.controls.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.fxml.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.graphics.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.media.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.properties.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.swing.jar;D:\BlueJ-windows-541\bluej\lib\javafx\javafx.web.jar;C:\Users\charl\LIA-Programming
+-d
+C:\Users\charl\LIA-Programming\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+LIA-Programming
+-windowtitle
+LIA-Programming
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/21/docs/api/
+C:\Users\charl\LIA-Programming/App.java
+C:\Users\charl\LIA-Programming/Equipment.java
+C:\Users\charl\LIA-Programming/EquipmentTest.java
+C:\Users\charl\LIA-Programming/AppTest.java
+C:\Users\charl\LIA-Programming/Mode.java
+C:\Users\charl\LIA-Programming/PoweredAct.java
+C:\Users\charl\LIA-Programming/Activity.java
+C:\Users\charl\LIA-Programming/Gender.java
+C:\Users\charl\LIA-Programming/Athlete.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\charl\LIA-Programming\App.java...
+Loading source file C:\Users\charl\LIA-Programming\Equipment.java...
+Loading source file C:\Users\charl\LIA-Programming\EquipmentTest.java...
+Loading source file C:\Users\charl\LIA-Programming\AppTest.java...
+Loading source file C:\Users\charl\LIA-Programming\Mode.java...
+Loading source file C:\Users\charl\LIA-Programming\PoweredAct.java...
+Loading source file C:\Users\charl\LIA-Programming\Activity.java...
+Loading source file C:\Users\charl\LIA-Programming\Gender.java...
+Loading source file C:\Users\charl\LIA-Programming\Athlete.java...
+Constructing Javadoc information...
+warning: unknown enum constant Status.STABLE
+  reason: class file for org.apiguardian.api.API$Status not found
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+warning: unknown enum constant Status.STABLE
+Building index for all the packages and classes...
+Standard Doclet version 21.0.4+7-LTS
+Building tree for all the packages and classes...
+Generating C:\Users\charl\LIA-Programming\doc\Activity.html...
+Generating C:\Users\charl\LIA-Programming\doc\App.html...
+Generating C:\Users\charl\LIA-Programming\doc\AppTest.html...
+Generating C:\Users\charl\LIA-Programming\doc\Athlete.html...
+Generating C:\Users\charl\LIA-Programming\doc\Equipment.html...
+Generating C:\Users\charl\LIA-Programming\doc\EquipmentTest.html...
+Generating C:\Users\charl\LIA-Programming\doc\Gender.html...
+Generating C:\Users\charl\LIA-Programming\doc\Mode.html...
+Generating C:\Users\charl\LIA-Programming\doc\PoweredAct.html...
+Generating C:\Users\charl\LIA-Programming\doc\package-summary.html...
+Generating C:\Users\charl\LIA-Programming\doc\package-tree.html...
+Generating C:\Users\charl\LIA-Programming\doc\overview-tree.html...
+Building index for all classes...
+Generating C:\Users\charl\LIA-Programming\doc\allclasses-index.html...
+Generating C:\Users\charl\LIA-Programming\doc\allpackages-index.html...
+Generating C:\Users\charl\LIA-Programming\doc\index-all.html...
+Generating C:\Users\charl\LIA-Programming\doc\search.html...
+Generating C:\Users\charl\LIA-Programming\doc\index.html...
+Generating C:\Users\charl\LIA-Programming\doc\help-doc.html...
+100 warnings

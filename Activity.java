@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * Write a description of class Activities here.
+ * This class is mostly for the creation of an acitvity.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Charles)
+ * @version (2025-05-18)
  */
 public class Activity 
 {
@@ -15,14 +15,14 @@ private double duration;
 private double caloriesBurned;
     
 private Mode mode;
-private Equipment equipment; //(can be null)
+private Equipment equipment; 
     
     
 /*
      * 
      * 
      */
-public Activity(Athlete athlete, double distance, double duration, Mode mode){ 
+public Activity(/*Athlete athlete*/ double distance, double duration, Mode mode){ 
     this.athlete = athlete;
     this.distance = distance;
     this.duration = duration;
@@ -46,12 +46,11 @@ public Equipment getEquipment() {
         return equipment;
     }
     
-public void getCaloriesBurned(){ //not void but double, gotta figure out the code
-        // If we have to take into consideration the fact that an equipment got used and the nature of the activity to know exactly the calories burned, we should use an if statement
+public void getCaloriesBurned(){ 
+    
     }
     
-public void getSummary() { //String, not void
+public void getSummary() {
         System.out.println("something that summarizes");
-        // return something
     }
 }

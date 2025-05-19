@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 /**
- * Write a description of class Athlete here.
+ * The details of an athlete can be found here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Charles)
+ * @version (2025-05-18)
  */
 public class Athlete 
 {
@@ -31,13 +31,12 @@ public class Athlete
         return activities;
     }
     
-    // Still not sure about this
-    public void getTotalDistance(){ // not void but double, but I have to write this for now until we figure out the method
-      //still gotta figure out the method implementation (Loop)
+    public void getTotalDistance(){ 
+      
     }
     
-    public void getTotalBurnedCalories() {// not void but double, but I have to write this for now until we figure out the method
-        //still gotta figure out the method implementation (Loop)
+    public void getTotalBurnedCalories() {
+        
     }
     
     //Added by Aadam

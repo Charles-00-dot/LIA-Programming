@@ -1,48 +1,56 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 /**
- * Write a description of class App here.
+ * This is the main menu of the entire app.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Charles)
+ * @version (2025-05-18)
  */
 public class App
 {
     private ArrayList<Athlete> athletes;
-    private ArrayList<Activity> activities;
+    private static ArrayList<Activity> activities;
     private ArrayList<Equipment> equipment;
     private double distance = 0;
     
-    public static void main(String[] args){
+public static void main(String[] args){
         new App();
     }
 
     
-    public App(){
+/**
+ * 
+ */public App(){
         athletes = new ArrayList<Athlete>();
         activities = new ArrayList<Activity>();
         equipment = new ArrayList<Equipment>();
         printWelcome();
     }
     
-public void printWelcome(){
+/**
+ * It allows you to interact with the main menu.
+ * 
+ */public void printWelcome(){
          Scanner sc = new Scanner(System.in);
          System.out.println("Welcome to AmazingApp");
          System.out.println("What do you want: (1)SignUp,(2) ListOfAtletes, (3)ListOfActivities, (4)Quit");
-         System.out.println("SignUp");
-         System.out.println("ListOfAthletes");
          switch(sc.next()){
-             case "1":
-                 userSignUp();
+          case "1":
+            userSignUp();
                  break;
-            case"2":
+          case "2":
             numberOfUser();
             listAthletes();
-            break;
+                 break;
+          case "4":
+            closing();
+                break;
          }
-    }
+}
     
-public void userSignUp() {
+/**
+ * It allows you to Sign in to the App.
+ */public void userSignUp() {
         String name;
         int age;
         Gender gender;
@@ -69,10 +77,6 @@ public void userSignUp() {
                 gender = Gender.OTHER;
                 break;
         }
-
-        // System.out.print("Enter gender (MALE, FEMALE, OTHER): ");
-        // String genderInput = scanner.nextLine().toUpperCase();
-        // gender = Gender.valueOf(genderInput);
     
         Athlete athlete = new Athlete(name, age, gender);
         athletes.add(athlete);
@@ -88,31 +92,39 @@ public void userSignUp() {
                 PoweredAct.createPoweredAct();
                 break;
         }   
-
-    
 }
     
-public void numberOfUser(){
+/**
+ * It gives you the amount of users within the app.
+ */public void numberOfUser(){
         Scanner scanner = new Scanner(System.in);
         System.out.println(athletes.size());
     }
      
-public void listAthletes() {
-        Scanner scanner = new Scanner(System.in);
-        for (Athlete athlete : athletes) {
+
+/**
+ * It gives you the names of the users.
+ */public void listAthletes() {
+    Scanner scanner = new Scanner(System.in);
+    for (Athlete athlete : athletes) {
             System.out.println(athlete.getName());
         }
+    System.out.print("Press 1 to retry"
+    );
+    switch(scanner.next()){
+        case "1":
+            retry();
+            break;
     }
+}
     
-public void createEquipment(String name) {
-        //Gotta figure out the method
-    }
-    
-public void createActivity() { 
+
+/**
+ * It gives to the acces to create your own regular activity.
+ */public void createActivity() { 
     double caloriesBurned;
     double distance;
     double duration;
-    int multi;
     Mode mode;
     
     Scanner scanner = new Scanner(System.in);
@@ -120,9 +132,11 @@ public void createActivity() {
     distance = scanner.nextDouble();
     scanner.nextLine();
     System.out.print("Time traveled: ");
-    distance = scanner.nextDouble();
+    duration = scanner.nextDouble();
     scanner.nextLine();
-     System.out.print("which activity: (1)WALK, (2)SWIM, (3)RUN, (4)JOG ");
+    System.out.print("which activity: (1)WALK, (2)SWIM, (3)RUN, (4)JOG ");
+    mode = null;
+    
     switch(scanner.next()){
         case"1" :
                 mode = Mode.WALKING;
@@ -139,43 +153,106 @@ public void createActivity() {
         }
     
     
-    System.out.print("you have burned this much calories : Type [1] confirm" );
-        
+    System.out.print("you have burned this much calories : Type [1] to confirm" );
+      
     switch (scanner.next()){
-        case"1":
-                calculateBurnedCaloriesByAthlete();
+        case "1":
+                calculateBurnedCaloriesByAthlete(mode,distance);
             break;
         }
+    scanner.nextLine();
+    Activity activityInfo = new Activity (/*athlete*/ distance,  duration,  mode);
+    activities.add(activityInfo);
     
-    // Activity activityInfo = new Activity (distance,  duration,  mode);
-    // activities.add(activityInfo);
+    System.out.print("Press 1 to retry"
+    );
+    switch(scanner.next()){
+        case "1":
+            retry();
+            break;
     }
+ }
+ 
+ /**
+  * Allows you to go back to main menu.
+  */public void retry(){
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("What would you like to do again : sign up another user(1), ListOfAtletes(2), ListOfActivities(3), ListOfPowered(4), Quit(5)");
     
-public void listActivities() {
-        for (Activity activities : activities){
+    switch (scanner.next()){
+        case "1":
+            userSignUp();
+            break;
+        case "2":
+            numberOfUser();
+            listAthletes();
+            break;
+        case "3":
+            listActivities();
+            break;
+        case "4":
+            PoweredAct.ListOfPowered();
+        case "5":
+            closing();
+            break;
+    }
+ }
+    
+
+/**
+ * It gives you all the activities that was done by the athletes.
+ */public void listActivities() {
+    for (Activity activities : activities){
             System.out.println(activities);
         }
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Press 1 to retry"
+    );
+    switch(scanner.next()){
+        case "1":
+            retry();
+            break;
     }
+ }
     
 public void listActivitiesByAthlete(Athlete athlete) {
-        //Gotta figure out the method
-    }
+        
+}
     
-public void calculateDistanceByAthlete(Athlete athlete) { //double
-        // return athlete.getTotalDistance(); (since i put void in the getTotalDistance method, it doesn't work)
-    }
+public void calculateDistanceByAthlete(Athlete athlete) { 
+        
+   }
     
-public void calculateBurnedCaloriesByAthlete() { //double
-        int duration = 30;
-        if (duration < 30 ){
-            System.out.println("You burned around 150 to 300 calories");
+/**
+ * Calculation of the Calories.
+ * 
+ */public void calculateBurnedCaloriesByAthlete(Mode mode, double distance) { 
+        switch(mode){
+            case WALKING:
+                System.out.print(distance * 10);
+                break;
+            case RUNNING:
+                System.out.print(distance * 30);
+                break;
+            case JOGGING:
+                System.out.print(distance * 20);
+                break;
+            case SWIMMING:
+                System.out.print(distance * 50);
+                break;
         }
-        if (duration > 30 ){
-            System.out.println("You burned around 300 to 800 calories");
-        }
     }
+
+/**
+ * It closes the app.
+ */public void closing(){
+    Scanner scanner = new Scanner(System.in);
+    scanner.close();
+}
     
-public ArrayList<Equipment> getEquipmentList() {
+/**
+ * 
+ */public ArrayList<Equipment> getEquipmentList() {
         return equipment;
     }
 }

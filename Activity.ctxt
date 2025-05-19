@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Activity
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Activities\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=athlete\ distance\ duration\ mode
-comment1.target=Activity(Athlete,\ double,\ double,\ Mode)
+comment0.text=\r\n\ This\ class\ is\ mostly\ for\ the\ creation\ of\ an\ acitvity.\r\n\r\n\ @author\ (Charles)\r\n\ @version\ (2025-05-18)\r\n
+comment1.params=distance\ duration\ mode
+comment1.target=Activity(double,\ double,\ Mode)
 comment1.text=\r\n\ \r\n\ \r\n
 comment2.params=
 comment2.target=double\ getDistance()

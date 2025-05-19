@@ -1,8 +1,15 @@
 #BlueJ class context
 comment0.target=PoweredAct
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ PoweredAct\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=athlete\ distance\ duration\ mode\ equipment
-comment1.target=PoweredAct(Athlete,\ double,\ double,\ Mode,\ Equipment)
+comment0.text=\r\nThis\ class\ acts\ pretty\ similar\ like\ the\ activity\ class.\r\n\r\n\ @author\ (Charles)\r\n\ @version\ (2025-05-18)\r\n
+comment1.params=distance\ duration\ mode\ equipment
+comment1.target=PoweredAct(double,\ double,\ Mode,\ Equipment)
 comment2.params=
 comment2.target=void\ createPoweredAct()
-numComments=3
+comment2.text=\r\n\ This\ will\ allow\ you\ to\ create\ a\ Powered\ Activity.\r\n
+comment3.params=mode\ distance
+comment3.target=void\ calculateBurnedCaloriesByAthlete(Mode,\ double)
+comment3.text=\r\n\ It\ same\ with\ the\ app\ class.\ Calculation\ of\ the\ calories.\r\n\ \r\n
+comment4.params=
+comment4.target=void\ ListOfPowered()
+comment4.text=\r\n\ Gives\ you\ acces\ to\ your\ list\ of\ Powered\ Activity.\r\n
+numComments=5
